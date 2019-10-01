@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.all {
+  margin: 10px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container div {
+  border: 2px solid blue;
+  padding: 5px;
+}
+
+.desc {
+  width: 200px;
+}
+
+.name {
+  width: 100px;
+}
+
+.other {
+  width: 60px;
+}

@@ -1,3 +1,11 @@
-<ul>
-  <app-article *ngFor="let article of articleList" [article]="article"></app-article>
-</ul>
+<div class="all">
+  <div class="flex-container title">
+    <div class="name">Name</div>
+    <div class="desc">Description</div>
+    <div class="other">Quantity</div>
+    <div class="other">Price</div>
+  </div>
+  <div>
+    <app-article *ngFor="let article of articleList" [article]="article"></app-article>
+  </div>
+</div>
